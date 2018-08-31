@@ -1,0 +1,957 @@
+@charset "UTF-8";
+/*
+--
+style.css
+Author : Joris Loemba, Maxime Tremblay
+Date : 2018
+--
+Fichier permettant de modifier le style de nos Ã©lÃ©mÃ©nts HTML en crÃ©ant des dÃ©diÃ©es Ã  ces dernieres.Les Ã©lÃ©ments concernÃ©s sont :
+    - Les polices de caractÃ¨res
+    - Les tailles des polices
+    - Les bordures des Ã©lÃ©ments
+    - Les cartes Googles
+    - Les images
+    - Les messages d'alertes
+    - Les champs de saisies  ( Ã  retravailler)
+    - Les boutons ( Ã  retravailler)
+    - Le systÃ¨me de grilles
+ --
+*/
+/*  variable.css
+- Les codes HEX,RGB des couleurs
+- Le nom des polices des caractÃ¨res
+- L'appel des fichiers oft pour les font(polices de caractÃ¨res)
+
+ */
+/* Â°Â°Â°Â°Â° LES COULEURS  Â°Â°Â°Â°Â° */
+/* Â°Â°Â°Â°Â° LES NOMS DES POLICES DE CARACTERES Â°Â°Â°Â°Â° */
+@font-face {
+  font-family: "Soybeanut";
+  font-weight: bold;
+  src: url("../font/soybeanut.ttf"); }
+
+@font-face {
+  font-family: "Braxton";
+  font-weight: bold;
+  src: url("../font/braxton.otf"); }
+
+@font-face {
+  font-family: "Glamor";
+  font-weight: bold;
+  src: url("../font/glamor.otf"); }
+
+@font-face {
+  font-family: "Navia";
+  font-weight: bold;
+  src: url("../font/navia.ttf"); }
+
+@font-face {
+  font-family: "Norwester";
+  font-weight: bold;
+  src: url("../font/norwester.otf"); }
+
+/* -----------------------------------------------------------------------
+                          LE STYLE DES BALISES HTML
+--------------------------------------------------------------------------*/
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0 0;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  background-color: #EEEEEE; }
+
+header {
+  background-color: #474750;
+  top: 0em;
+  width: 100%;
+  color: #EEEEEE;
+  box-shadow: 0 0.1em 6px #aaa;
+  /*  L'ombrage  */
+  position: relative; }
+
+header > nav ul.without-margin {
+  padding: 0%;
+  color: #EEEEEE;
+  display: inline-block;
+  list-style-type: none;
+  width: 100%;
+  height: auto;
+  margin: 5% 0% 0% 0%;
+  font-size: 85%; }
+
+header > nav ul {
+  padding: 0%;
+  color: #EEEEEE;
+  display: inline-block;
+  list-style-type: none;
+  width: 100%;
+  height: auto;
+  margin: 15% 0% 0% 10%;
+  font-size: 85%; }
+
+header > nav ul li {
+  display: inline-block;
+  margin: 0% 0%;
+  padding: 0%;
+  width: 10em; }
+
+header > nav ul li a {
+  color: #EEEEEE;
+  transition-duration: 0.1s;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #EEEEEE;
+  padding: 5%; }
+
+header > nav ul li a:hover {
+  color: #EEEEEE;
+  text-decoration: none;
+  transition-duration: 0.1s;
+  font-size: 100%;
+  border: 0px solid #EEEEEE;
+  text-align: center;
+  padding: 5%; }
+
+header .menu-bureau {
+  display: block; }
+
+header .nav-mobile {
+  display: none; }
+
+@media screen and (max-width: 570px) {
+  header .row {
+    height: 3em; }
+  header .menu-bureau {
+    display: none; }
+  header .nav-mobile {
+    display: block;
+    text-align: end; }
+  header .nav-mobile > * {
+    top: 5em; }
+  header .nav-mobile .menu-burger {
+    right: 5%;
+    top: 3%; }
+  header .nav-mobile .menu-burger span {
+    width: 80%;
+    height: 0.3em;
+    margin: 15% 0;
+    border-radius: 5px;
+    background: #EEEEEEEE;
+    display: block;
+    transition-duration: 0.2s; }
+  header .nav-mobile .menu-burger:hover > span {
+    width: 80%;
+    height: 0.3em;
+    margin: 15% 0;
+    border-radius: 5px;
+    background: #F7DC6F;
+    display: block;
+    transition-duration: 0.2s; }
+  header .nav-mobile svg {
+    color: #EEEEEEEE;
+    font-size: 1.5em;
+    margin-top: 6%;
+    transition-duration: 0.2s; }
+  header .nav-mobile svg:hover {
+    color: #F7DC6F;
+    font-size: 1.5em;
+    margin-top: 0%;
+    transition-duration: 0.2s; }
+  header .nav-mobile .center {
+    text-align: center; }
+  header .nav-mobile .bottom {
+    bottom: 0%;
+    margin-top: 0.3em; } }
+
+main {
+  position: relative;
+  padding: 3% 0%; }
+
+footer {
+  background-color: #474750;
+  width: 100%;
+  color: #EEEEEE;
+  box-shadow: 0 0.1em 2em #aaa;
+}
+
+footer ul {
+  list-style-type: none;
+  color: #EEEEEE;
+  font-size: 85%; }
+
+footer ul li a {
+  color: #EEEEEE;
+  text-decoration: none;
+  transition-duration: 0.3s; }
+
+footer ul li a:hover {
+  text-decoration: underline;
+  font-size: 1.4em;
+  transition-duration: 0.3s; }
+
+footer .middle {
+  margin: 3% 0%; }
+
+footer hr {
+  border: 0;
+  height: 0;
+  border-top: 0em solid #EEEEEE;
+  border-bottom: 0.03em solid #EEEEEE; }
+
+footer .menu-bureau {
+  display: block; }
+
+footer .nav-mobile {
+  display: none; }
+
+footer .center {
+  margin: 0em 5em; }
+
+@media screen and (max-width: 570px) {
+  footer {
+    background-color: #474750;
+    width: 100%;
+    color: #EEEEEE;
+    box-shadow: 0 0.1em 2em #aaa; }
+  footer .menu-bureau {
+    display: none; }
+  footer .nav-mobile {
+    display: block; } }
+
+/* -----------------------------------------------------------------------
+                          LE SYSTEME DE GRILLES
+--------------------------------------------------------------------------*/
+.container {
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 70%;
+  color: #474750; }
+
+.container-md {
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 85%;
+  color: #474750; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: 0 -0.5em; }
+
+.col-12 {
+  flex-basis: 100%;
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-11 {
+  flex-basis: calc(100% / 1.1);
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-10 {
+  flex-basis: calc(100% / 1.2);
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-9 {
+  flex-basis: 75%;
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-8 {
+  flex-basis: calc(100% / 1.5);
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-7 {
+  flex-basis: calc(100% / 1.7);
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-6 {
+  flex-basis: calc(100% / 2);
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-5 {
+  flex-basis: calc(100% / 2.43);
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-4 {
+  flex-basis: calc(100% / 3);
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-3 {
+  flex-basis: 25%;
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-2 {
+  flex-basis: calc(100% / 6);
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+.col-1 {
+  flex-basis: calc(100% / 11);
+  padding: 0 0.5em;
+  background-clip: content-box;
+  line-height: 2.5em; }
+
+/* ----  SYSTEME DE GRILLES   ---- */
+@media screen and (max-width: 370px) {
+  .container {
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 85%;
+    color: #474750; }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0 -0.5em;
+    height: 3em; }
+  .col-12 {
+    flex-basis: 100%;
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-11 {
+    flex-basis: calc(100%);
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-10 {
+    flex-basis: calc(100% / 1.3);
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-9 {
+    flex-basis: 70%;
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-8 {
+    flex-basis: calc(100% / 1.5);
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-7 {
+    flex-basis: calc(100% / 1.7);
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-6 {
+    flex-basis: calc(100% / 2);
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-5 {
+    flex-basis: calc(100% / 2.43);
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-4 {
+    flex-basis: calc(100% / 3);
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-3 {
+    flex-basis: 30%;
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-2 {
+    flex-basis: calc(100% / 6);
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  .col-1 {
+    flex-basis: calc(100% / 11);
+    padding: 0 0.5em;
+    background-clip: content-box;
+    line-height: 2.5em; }
+  /* -----------------------------------------------------------------------
+                             LES BOUTONS
+  --------------------------------------------------------------------------*/
+  button {
+    padding: 1% 3%; }
+  button.btn-blue {
+    background-color: #2D9CDB;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  .btn-blue:hover {
+    background-color: #2C8ABF;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  button.btn-blue:active {
+    background-color: #1B6A96;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  /* -- BOUTON JAUNE -- */
+  button.btn-yellow {
+    background-color: #F7DC6F;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  button.btn-yellow:hover {
+    background-color: #F2CF41;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  button.btn-yellow:active {
+    background-color: #E3BF30;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  /* -- BOUTON VERT -- */
+  button.btn-green {
+    background-color: #27AE60;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  button.btn-green:hover {
+    background-color: #239955;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  button.btn-green:active {
+    background-color: #20854A;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  /* -- BOUTON ROUGE -- */
+  button.btn-red {
+    background-color: #E37676;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  .btn-red:hover {
+    background-color: #C96363;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  .btn-red:active {
+    background-color: #B25050;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  /* ---- LE BOUTON PAR DEFAULT ---- */
+  button.btn-basic {
+    background-color: #EEEEEE;
+    border: 1px solid #474750;
+    color: #474750;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  button.btn-basic:hover {
+    background-color: #DEDEDE;
+    border: 0px #474750;
+    color: #474750;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  button.btn-basic:active {
+    background-color: #D4D4D4;
+    border: 0px #474750;
+    font-weight: 600;
+    white-space: nowrap;
+    cursor: pointer;
+    transition-duration: 0.2s; }
+  /* ----- FIN DU MEDIA QUERIES  ------ */ }
+
+/* -----------------------------------------------------------------------
+                            LA BORDURE DES ELEMENTS
+  --------------------------------------------------------------------------*/
+.border {
+  border: 1px solid #474750;
+  white-space: nowrap; }
+
+.bloc-grey {
+  background-color: #EEEEEE; }
+
+.border-thin {
+  border-style: solid;
+  border-width: thin;
+  border-color: #EEEEEE; }
+
+/*  --- Les BORDURES(Menu du footer) ---- */
+.border-left-right {
+  border-left: 0.03em solid #EEEEEE;
+  border-right: 0.03em solid #EEEEEE; }
+
+/*  --- Les SEPARATEURS(HR pour les menu mobile du footer) ---- */
+.hr-separateur-li {
+  width: 85%;
+  margin-left: 0%; }
+
+/* -----  ----  LES BOUTONS  ----------  */
+/* -- BOUTON BLEU -- */
+button {
+  padding: 1% 3%; }
+
+button.btn-blue {
+  background-color: #2D9CDB;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+button.btn-blue:hover {
+  background-color: #2C8ABF;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+button.btn-blue:active {
+  background-color: #1B6A96;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+/* -- BOUTON JAUNE -- */
+button.btn-yellow {
+  background-color: #F7DC6F;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+button.btn-yellow:hover {
+  background-color: #F2CF41;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+button.btn-yellow:active {
+  background-color: #E3BF30;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+/* -- BOUTON VERT -- */
+button.btn-green {
+  background-color: #27AE60;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+button.btn-green:hover {
+  background-color: #239955;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+button.btn-green:active {
+  background-color: #20854A;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+/* -- BOUTON ROUGE -- */
+button.btn-red {
+  background-color: #E37676;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+.btn-red:hover {
+  background-color: #C96363;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+.btn-red:active {
+  background-color: #B25050;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+/* ---- LE BOUTON PAR DEFAULT ---- */
+button.btn-basic {
+  background-color: #EEEEEE;
+  border: 1px solid #474750;
+  color: #474750;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+button.btn-basic:hover {
+  background-color: #DEDEDE;
+  border: 0px #474750;
+  color: #474750;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+button.btn-basic:active {
+  background-color: #D4D4D4;
+  border: 0px #474750;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition-duration: 0.2s; }
+
+/* -----------------------------------------------------------------------
+                          LES CHAMPS DE SAISIES
+--------------------------------------------------------------------------*/
+input, select {
+  background-color: #EEEEEE;
+  border-left: 0px solid #474750;
+  border-right: 0px solid #474750;
+  border-top: 0px solid #474750;
+  border-bottom: 1px solid #474750;
+  line-height: 2.5em;
+  outline: none; }
+
+textarea {
+  color: #444;
+  background-color: transparent;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  white-space: nowrap;
+  border: 1px solid #474750;
+  width: 45em;
+  height: 15em; }
+
+input[type='date'] {
+  width: 12em;
+  font-family: Georgia, Times, "Times New Roman", serif; }
+
+select {
+  width: 12em;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  line-height: 2em; }
+
+@media screen and (max-width: 370px) {
+  input, select {
+    background-color: #EEEEEE;
+    border-left: 0px solid #474750;
+    border-right: 0px solid #474750;
+    border-top: 0px solid #474750;
+    border-bottom: 1px solid #474750;
+    line-height: 2.5em;
+    outline: none; }
+  textarea {
+    color: #444;
+    background-color: transparent;
+    overflow: auto;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    white-space: nowrap;
+    padding: 2% 2%;
+    border: 1px solid #474750;
+    width: 20em; }
+  input[type='date'] {
+    width: 180%;
+    font-family: Georgia, Times, "Times New Roman", serif; }
+  select {
+    width: 12em;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    line-height: 2em; } }
+
+/* -----------------------------------------------------------------------
+                          LES MESSAGES D'ALERTES
+--------------------------------------------------------------------------*/
+.msg-alert-red {
+  background-color: #E37676;
+  border: 0px;
+  padding: 1% 2%;
+  color: white; }
+
+.msg-alert-blue {
+  background-color: #2D9CDB;
+  border: 0px;
+  padding: 1% 2%;
+  color: white; }
+
+.msg-alert-green {
+  background-color: #27AE60;
+  border: 0px;
+  padding: 1% 2%;
+  color: white; }
+
+/* -----------------------------------------------------------------------
+                          LES IMAGES
+--------------------------------------------------------------------------*/
+.img-cover {
+  object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.2s; }
+
+.img-cover:hover {
+  object-fit: cover;
+  filter: brightness(50%);
+  box-shadow: none;
+  transition-duration: 0.2s; }
+
+.img-small {
+  width: 100%;
+  height: 30%; }
+
+.img-medium {
+  width: 100%;
+  height: 60%; }
+
+.img-large {
+  width: 100%;
+  height: 80%; }
+
+.img-extra {
+  width: 400px;
+  height: 300px; }
+
+.img-flyers {
+  width: 870px;
+  height: 530px; }
+
+/* --- La taille des logo ---  */
+.logo-sm {
+  /* PETTITE TAILLE */
+  object-fit: cover;
+  width: 90%; }
+
+.logo-md {
+  /* MOYENNE TAILLE */
+  object-fit: cover;
+  width: 120%;
+  margin-top: 6%; }
+
+.logo-lg {
+  /* GRANDE TAILLE */
+  object-fit: cover;
+  width: 160%; }
+
+@media screen and (max-width: 370px) {
+  .logo-sm {
+    object-fit: cover;
+    width: 20%; } }
+
+@media screen and (max-width: 570px) {
+  .logo-sm {
+    object-fit: cover;
+    width: 20%; }
+  .logo-md {
+    /* MOYENNE TAILLE */
+    object-fit: cover;
+    width: 75%;
+    margin-top: 6%; }
+  .logo-lg {
+    /* GRANDE TAILLE */
+    object-fit: cover;
+    width: 105%; } }
+
+@media screen and (max-width: 370px) {
+  /* ---- LES IMAGES -----  */
+  .img-cover {
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.2s; }
+  .img-cover:hover {
+    object-fit: cover;
+    filter: brightness(50%);
+    box-shadow: none;
+    transition-duration: 0.2s; }
+  .img-small {
+    width: 200px;
+    height: 100px; }
+  .img-medium {
+    width: 280px;
+    height: 170px; }
+  .img-large {
+    width: 280px;
+    height: 170px; }
+  .img-extra {
+    width: 115%;
+    height: 80%; }
+  .img-flyers {
+    width: 250%;
+    height: 50%; } }
+
+/* -----------------------------------------------------------------------
+                          LES TYPOGRAPHIES
+--------------------------------------------------------------------------*/
+.font-soybeanut {
+  font-family: "Soybeanut", Helvetica, Arial, sans-serif; }
+
+.font-navia {
+  font-family: "Navia", Helvetica, Arial, sans-serif; }
+
+.font-glamor {
+  font-family: "Glamor", Helvetica, Arial, sans-serif; }
+
+.font-braxton {
+  font-family: "Braxton", Helvetica, Arial, sans-serif; }
+
+.font-norwester {
+  font-family: "Norwester", Helvetica, Arial, sans-serif; }
+
+/* ---- LA GOOGLE MAPS -----  */
+.google-maps-auto-sizing {
+  width: auto;
+  height: 15em; }
+
+.google-maps-lg {
+  width: 100%;
+  height: 60%;
+  border: 1px solid #EEEEEE; }
+
+.google-maps-md {
+  width: 60%;
+  height: 20%;
+  border: 1px solid #EEEEEE; }
+
+/* -----------------------------------------------------------------------
+                          LA TAILLE DES POLICE DE CARACTERES
+--------------------------------------------------------------------------*/
+.font-size-h1-1 {
+  font-size: 3em; }
+
+.font-size-h1-2 {
+  font-size: 5em; }
+
+.font-size-h1-3 {
+  font-size: 7em; }
+
+/*  LA CARD BOX EN MODE RESPONSIVE  */
+@media screen and (max-width: 570px) {
+  .col-12 .card-box-lg .first-plan {
+    position: absolute;
+    z-index: 5;
+    margin: 0% 0%; }
+  .col-12 .card-box-lg {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    margin: 14% 0% 0%;
+    width: 85%; }
+  .col-12 .card-box-lg .font-size-h1-2 {
+    font-size: 1.5em;
+    margin: 0em 0em;
+    text-align: initial; }
+  .col-12 .card-box-lg .font-size-h1-1 {
+    font-size: 1.75em;
+    text-decoration: none;
+    margin: 33% 0% -6%;
+    text-align: initial; }
+  .col-12 .card-box-lg h2.about-event-link {
+    font-size: 2em; }
+  .col-12 .card-box-lg h2.about-event-link:hover {
+    font-size: 2.4em; }
+  .container-row {
+    margin: 0em 2em;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+  .container-row div {
+    flex-basis: 100%; }
+  .container-row .col-4 .card-box-sm {
+    margin: 18.5% 2%;
+    text-align: left; }
+  .container-row .font-size-h2-1 {
+    font-size: 1.75em; }
+  .container-row img {
+    height: 80%; }
+  header .container-nav {
+    padding: 1% 0%;
+    margin: 0 auto;
+    width: 86%;
+    display: flex;
+    flex-wrap: wrap; } }

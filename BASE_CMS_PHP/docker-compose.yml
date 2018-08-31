@@ -1,0 +1,32 @@
+version: "3.1"
+
+
+services:
+
+# MariaDB container
+  database:
+    image: mysql:5.7
+    container_name: mysql_container
+    volumes: 
+        - ./DB:/var/lib/mysql
+    environment:
+        - MYSQL_ROOT_PASSWORD=root
+    ports:
+        - 3307:3306
+       
+# phpMyAdmin container
+  server:
+    build: .
+    container_name: php_apache
+    ports:
+       - 8080:80
+    volumes: 
+       - ./Sources:/var/www/html
+       
+  sgbdr:
+    image: phpmyadmin/phpmyadmin
+    container_name: phpmyadmin
+    links:
+        - database:db
+    ports:
+        - 8081:80

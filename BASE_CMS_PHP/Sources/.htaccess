@@ -1,0 +1,8 @@
+RewriteEngine on
+
+RewriteRule ^(.+).rss public/$1.xml [L]
+RewriteRule sitemap.xml public/sitemap.xml [L]
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php
