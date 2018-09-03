@@ -5,7 +5,7 @@ class IndexController {
 
     public function indexAction($params)
     {
-        $modelsData = new View("v_index.view.php");
+        $modelsData = new View("home");
         $myHome = new HomeJson();
         if (!$myHome->getConfig()) {
             HttpElement::getView404();

@@ -12,5 +12,5 @@ define("DS", strtoupper(substr(PHP_OS, 0, 3)) === 'WIN'? "/" : DIRECTORY_SEPARAT
 $scriptname = (dirname($_SERVER["SCRIPT_NAME"]) === "/") ? "" : dirname($_SERVER["SCRIPT_NAME"]);
 define("DIRNAME",$scriptname.DS);
 define("DIRNAME2",$_SERVER["SCRIPT_NAME"].DS);
-define("MODE_DEV",false);
+define("MODE_DEV",true);
 

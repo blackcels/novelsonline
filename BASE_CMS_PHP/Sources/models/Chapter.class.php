@@ -6,7 +6,7 @@
  * Time: 19:18
  */
 
-class Chapter
+class Chapter extends BaseSql
 {
     protected $id = null;
     protected $chapter_number;
@@ -131,7 +131,12 @@ class Chapter
     public static function getRecentChapters()
     {
         $max = self::count();
-        $recentChapters = self::getAllWithLimit(($max - 10), $max);
+        $recentChapters = null;
+        if ($max < 10) {
+            $recentChapters = self::getAll();
+        } else {
+            $recentChapters = self::getAllWithLimit(($max - 10), $max);
+        }
         return $recentChapters;
     }
 
@@ -141,6 +146,15 @@ class Chapter
         $request = "SELECT * FROM `chapter` WHERE novels_id = :idNovels";
         $query = $pdo->prepare($request);
         $query->execute(["idNovels"=>$idNovels]);
+        return $query->fetchAll(PDO::FETCH_CLASS, get_class());
+    }
+
+    public static function geChapterFromNovel($idNovels, $chapNumber)
+    {
+        $pdo = self::getIntancePdo();
+        $request = "SELECT * FROM `chapter` WHERE novels_id = :idNovels AND chapter_number = :chapNumber";
+        $query = $pdo->prepare($request);
+        $query->execute(["idNovels"=>$idNovels, "chapNumber"=>$chapNumber]);
         return $query->fetchAll(PDO::FETCH_CLASS, get_class());
     }
 

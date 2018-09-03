@@ -150,7 +150,7 @@ class Novels extends BaseSql
         $pdo = self::getIntancePdo();
         $request = "SELECT * FROM `novels` WHERE title = :novelTitle";
         $query = $pdo->prepare($request);
-        $query->execute(["novelsTitle"=>$novelsTitle]);
+        $query->execute(["novelTitle"=>$novelsTitle]);
         return $query->fetchObject(get_class());
     }
 
