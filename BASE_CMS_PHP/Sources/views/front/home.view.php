@@ -1,7 +1,25 @@
-<?php echo "Description => ".$Description; ?>
+<main class="clearfix">
+    <article>
+        <header>
+            <h1>Description</h1>
+        </header>
+        <main>
+            <?php echo $Description;?>
+        </main>
+    </article>
 
-<pre>
-    <?php print_r($recentChapters); ?>
-</pre>
+    <aside>
+        <header>
+            <h1>Recent Chapters</h1>
+        </header>
+        <main>
+            <ul>
+                <?php foreach ($recentChapters as $chapter): ?>
+                <li><a href="/chapters/<?php echo str_replace(" ", "-", $chapter->getNovelsName())."/".$chapter->getChapterNumber()."/"; ?>">
+                        <?php echo $chapter->getNovelsName() . " chapter " . $chapter->getChapterNumber() . " : " . $chapter->getChapterTitle(); ?></a></li>
+                <?php endforeach;?>
+            </ul>
+        </main>
+    </aside>
 
-<?php echo "Title => ".$Title; ?>
+</main>

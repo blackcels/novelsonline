@@ -5,104 +5,136 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db8eefc5-dac3-47fc-a1f1-d8b4bfac0a50" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sources/controllers/UpdateController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/private/json/database.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/views/back/home.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/views/front/chapters.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/views/front/home.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/views/front/viewingChapters.view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/views/templates/backOld.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sources/views/templates/frontOld.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/views/front/novels.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/DB/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/Readersdb/chapter.frm" beforeDir="false" afterPath="$PROJECT_DIR$/DB/Readersdb/chapter.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/Readersdb/chapter.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/DB/Readersdb/chapter.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/Readersdb/novels.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/DB/Readersdb/novels.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DB/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/DB/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DB/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/DB/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/DB/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/conf.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/conf.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/controllers/AccountController.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/controllers/AuthController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/controllers/BackController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/DB/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/DB/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/controllers/BackController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/controllers/BackController.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/controllers/ChaptersController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/controllers/ChaptersController.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/controllers/IndexController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/controllers/IndexController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/controllers/TestController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/controllers/TestController.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/Auth.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/core/Auth.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/Mailer.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/composer.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/testPHPMailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/autoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/composer/ClassLoader.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/composer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/composer/autoload_classmap.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/composer/autoload_namespaces.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/composer/autoload_psr4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/composer/autoload_real.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/composer/autoload_static.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/composer/installed.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/SECURITY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/VERSION" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/get_oauth_token.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-am.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-az.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ba.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-be.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-bg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ca.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ch.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-cs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-da.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-de.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-el.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-eo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-es.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-et.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fa.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fo.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-fr.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-gl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-he.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hr.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-hu.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-id.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-it.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ja.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ka.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ko.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-lt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-lv.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ms.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-nb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-nl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-pl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-pt_br.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ro.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-rs.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-ru.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sl.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-sv.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-tr.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-uk.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-vi.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/language/phpmailer.lang-zh_cn.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/src/Exception.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/src/OAuth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/src/PHPMailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/src/POP3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/core/mailer/vendor/phpmailer/phpmailer/src/SMTP.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/controllers/UpdateController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/controllers/UpdateController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/models/Chapter.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/models/Chapter.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/models/JsonElement/AdminUserJson.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/models/JsonElement/AdminUserJson.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/models/Novels.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/models/Novels.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/private/json/admin.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/private/json/admin.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/private/json/home.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/private/json/home.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/views/mail/test_template_mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/public/css/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/font/summernote.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/font/summernote.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/font/summernote.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ar-AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ar-AR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-bg-BG.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-bg-BG.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ca-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ca-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-cs-CZ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-cs-CZ.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-da-DK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-da-DK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-de-DE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-de-DE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-el-GR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-el-GR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-es-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-es-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-es-EU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-es-EU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-fa-IR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-fa-IR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-fi-FI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-fi-FI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-fr-FR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-fr-FR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-gl-ES.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-gl-ES.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-he-IL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-he-IL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-hr-HR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-hr-HR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-hu-HU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-hu-HU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-id-ID.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-id-ID.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-it-IT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-it-IT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ja-JP.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ja-JP.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ko-KR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ko-KR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-lt-LT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-lt-LT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-lt-LV.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-lt-LV.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-mn-MN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-mn-MN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-nb-NO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-nb-NO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-nl-NL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-nl-NL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-pl-PL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-pl-PL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-pt-BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-pt-BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-pt-PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-pt-PT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ro-RO.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ro-RO.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ru-RU.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ru-RU.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-sk-SK.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-sk-SK.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-sl-SI.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-sl-SI.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-sr-RS-Latin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-sr-RS-Latin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-sr-RS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-sr-RS.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-sv-SE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-sv-SE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ta-IN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-ta-IN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-th-TH.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-th-TH.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-tr-TR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-tr-TR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-uk-UA.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-uk-UA.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-vi-VN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-vi-VN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-zh-CN.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-zh-CN.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-zh-TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/lang/summernote-zh-TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/style_front.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/summernote-lite.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/fluxRss.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/public/fluxRss.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/img/fav_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/img/logo/fav_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/img/logo/logo_B-W.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/img/logo_B-W.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/img/pictures/hands-technology-photo-phone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/img/pictures/min_guitare.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/img/pictures/pexels-photo-167469.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/img/pictures/pexels-photo-270837.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/img/pictures/pexels-photo-432059.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/img/pictures/pexels-photo-888270.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/js/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/js/fontawesome-all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/js/googleApi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/js/scriptViewEdit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/js/summernote-lite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/views/front/chapters.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/views/front/chapters.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/views/front/home.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/views/front/home.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/views/front/v_index.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/views/front/viewingChapters.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/views/front/viewingChapters.view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/views/templates/back.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/views/templates/back.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/views/templates/front.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/views/templates/front.tpl.php" afterDir="false" />
     </list>
@@ -118,27 +150,32 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="PNG" value="2" />
+          <entry key="css" value="2" />
           <entry key="htaccess" value="2" />
           <entry key="html" value="1" />
-          <entry key="json" value="9" />
-          <entry key="php" value="100" />
+          <entry key="jpg" value="1" />
+          <entry key="json" value="10" />
+          <entry key="php" value="147" />
+          <entry key="png" value="2" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JSON" value="9" />
-          <entry key="PHP" value="100" />
+          <entry key="Image" value="5" />
+          <entry key="JSON" value="10" />
+          <entry key="PHP" value="147" />
           <entry key="YAML" value="1" />
           <entry key="htaccess" value="2" />
         </counts>
@@ -146,12 +183,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="php" value="4851" />
+          <entry key="php" value="7175" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="4850" />
+          <entry key="PHP" value="7174" />
           <entry key="PLAIN_TEXT" value="18" />
           <entry key="SQL" value="1" />
         </counts>
@@ -164,84 +201,57 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/index.php">
+        <entry file="file://$PROJECT_DIR$/Sources/views/front/updates.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/views/back/home.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/views/front/home.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="33" lean-forward="true" selection-end-line="6" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/views/templates/frontOld.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/views/templates/front.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="59" lean-forward="true" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/views/templates/back.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/controllers/ChaptersController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="43" column="40" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/views/front/viewingChapters.view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="190">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sources/controllers/BackController.class.php">
+        <entry file="file://$PROJECT_DIR$/Sources/views/templates/backOld.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2601">
-              <caret line="170" column="38" selection-start-line="170" selection-start-column="38" selection-end-line="170" selection-end-column="38" />
+            <state relative-caret-position="179">
+              <caret line="12" column="29" selection-start-line="12" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/controllers/RssController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/controllers/UpdateController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/models/Chapter.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -249,13 +259,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sources/views/front/chapters.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="8" />
+            <state relative-caret-position="255">
+              <caret line="15" column="149" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="149" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/controllers/ChaptersController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/models/Novels.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="149" selection-start-line="149" selection-end-line="149" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -264,6 +299,8 @@
       <find>&quot;novels&quot;</find>
       <find>save</find>
       <find>replace</find>
+      <find>novel</find>
+      <find>novels</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -282,23 +319,28 @@
         <option value="$PROJECT_DIR$/Sources/controllers/AccountController.class.php" />
         <option value="$PROJECT_DIR$/Sources/models/JsonElement/AdminUserJson.class.php" />
         <option value="$PROJECT_DIR$/Sources/core/Auth.class.php" />
-        <option value="$PROJECT_DIR$/Sources/views/templates/front.tpl.php" />
-        <option value="$PROJECT_DIR$/Sources/controllers/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/Sources/controllers/UpdateController.class.php" />
         <option value="$PROJECT_DIR$/Sources/private/json/admin.json" />
         <option value="$PROJECT_DIR$/Sources/conf.inc.php" />
         <option value="$PROJECT_DIR$/Sources/controllers/TestController.class.php" />
         <option value="$PROJECT_DIR$/Sources/private/json/database.json" />
-        <option value="$PROJECT_DIR$/Sources/models/Chapter.class.php" />
+        <option value="$PROJECT_DIR$/Sources/index.php" />
+        <option value="$PROJECT_DIR$/Sources/views/back/home.view.php" />
+        <option value="$PROJECT_DIR$/Sources/views/templates/back.tpl.php" />
+        <option value="$PROJECT_DIR$/Sources/public/css/test.css" />
+        <option value="$PROJECT_DIR$/Sources/controllers/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Sources/controllers/BackController.class.php" />
         <option value="$PROJECT_DIR$/Sources/views/front/home.view.php" />
-        <option value="$PROJECT_DIR$/Sources/controllers/ChaptersController.class.php" />
-        <option value="$PROJECT_DIR$/Sources/models/Novels.class.php" />
+        <option value="$PROJECT_DIR$/Sources/private/json/home.json" />
+        <option value="$PROJECT_DIR$/Sources/views/front/novels.view.php" />
         <option value="$PROJECT_DIR$/Sources/views/front/chapters.view.php" />
         <option value="$PROJECT_DIR$/Sources/views/front/viewingChapters.view.php" />
-        <option value="$PROJECT_DIR$/Sources/controllers/BackController.class.php" />
-        <option value="$PROJECT_DIR$/Sources/index.php" />
-        <option value="$PROJECT_DIR$/Sources/views/templates/back.tpl.php" />
-        <option value="$PROJECT_DIR$/Sources/views/back/home.view.php" />
+        <option value="$PROJECT_DIR$/Sources/views/templates/front.tpl.php" />
+        <option value="$PROJECT_DIR$/Sources/controllers/UpdateController.class.php" />
+        <option value="$PROJECT_DIR$/Sources/views/front/updates.view.php" />
+        <option value="$PROJECT_DIR$/Sources/controllers/ChaptersController.class.php" />
+        <option value="$PROJECT_DIR$/Sources/models/Novels.class.php" />
+        <option value="$PROJECT_DIR$/Sources/models/Chapter.class.php" />
+        <option value="$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php" />
       </list>
     </option>
   </component>
@@ -308,8 +350,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="639" />
+    <option name="y" value="-21" />
     <option name="width" value="954" />
     <option name="height" value="1047" />
   </component>
@@ -335,27 +378,7 @@
               <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
               <item name="Sources" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="back" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
-              <item name="Sources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="front" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
@@ -378,6 +401,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -404,16 +428,18 @@
       <workItem from="1535571780760" duration="3822000" />
       <workItem from="1535733208883" duration="12985000" />
       <workItem from="1535878387618" duration="23994000" />
+      <workItem from="1535992604023" duration="15479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40801000" />
+    <option name="totallyTimeSpent" value="56280000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -426,7 +452,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -440,61 +466,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/Sources/views/front/viewingChapters.view.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sources/phpinfo.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="88" column="15" lean-forward="true" selection-start-line="88" selection-start-column="15" selection-end-line="88" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/templates/backOld.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/mail/test_template_mail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/core/Captcha.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/core/CrudFileAbstract.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/core/Mailer.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="58" lean-forward="true" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/core/SitemapGenerator.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/core/UrlHelper.class.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-248" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/core/HttpElement.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
@@ -506,20 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="670">
           <caret line="368" column="48" selection-start-line="364" selection-start-column="49" selection-end-line="370" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/controllers/RssController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/controllers/NovelsController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="20" selection-start-line="21" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -544,13 +513,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/controllers/AccountController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="42" selection-start-column="8" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/controllers/AccountController.class.php" />
     <entry file="file://$PROJECT_DIR$/Sources/core/Auth.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -590,13 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/controllers/UpdateController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -650,9 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/private/json/home.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -667,80 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/controllers/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/models/Novels.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="152" column="31" lean-forward="true" selection-start-line="152" selection-start-column="31" selection-end-line="152" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/models/Chapter.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="158" column="5" lean-forward="true" selection-start-line="158" selection-start-column="5" selection-end-line="158" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/front/chapters.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/controllers/ChaptersController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/front/viewingChapters.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="1343">
           <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/templates/frontOld.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="6" lean-forward="true" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/templates/front.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="59" lean-forward="true" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/templates/back.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/front/home.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" lean-forward="true" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -751,10 +634,158 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/public/css/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/private/json/home.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="511" selection-start-column="511" selection-end-column="511" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/public/img/pictures/hands-technology-photo-phone.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/public/img/logo/logo_B-W.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/public/img/logo/fav_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/public/img/logo_B-W.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/public/img/fav_icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/front/home.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/controllers/NovelsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/controllers/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/controllers/BackController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2601">
-          <caret line="170" column="38" selection-start-line="170" selection-start-column="38" selection-end-line="170" selection-end-column="38" />
+        <state relative-caret-position="-1402">
+          <caret line="87" column="58" lean-forward="true" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/templates/back.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/front/novels.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/templates/frontOld.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/templates/front.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/front/viewingChapters.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="7" lean-forward="true" selection-end-line="29" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/controllers/UpdateController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/controllers/ChaptersController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/front/chapters.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="149" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/models/Novels.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/controllers/RssController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/models/Chapter.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/front/updates.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/templates/backOld.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="12" column="29" selection-start-line="12" selection-end-line="13" />
         </state>
       </provider>
     </entry>

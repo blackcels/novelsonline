@@ -64,6 +64,7 @@ class BackController {
                 $chapter->setChapterNumber($chapNumber);
                 $chapter->setChapterBody($chapBody);
                 $chapter->setNovelsId($myNovels->getId());
+                $chapter->setNovelsName(str_replace("-", " ", $title));
                 if (Chapter::checkChapter($myNovels->getId(), $chapNumber)){
                     $chapter->save();
                 }
@@ -84,6 +85,8 @@ class BackController {
             }
             $modelsData->assign("Novels", $myNovels);
             $modelsData->assign("Title", $myHome->getLogoTitle());
+            $modelsData->assign("Novelsname", str_replace("-", " ", $title));
+
         }
     }
 

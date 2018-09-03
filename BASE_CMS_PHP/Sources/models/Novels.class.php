@@ -38,7 +38,7 @@ class Novels extends BaseSql
      */
     public function getTitle()
     {
-        return ucfirst(strtolower($this->title));
+        return ucwords(strtolower($this->title));
     }
 
     /**

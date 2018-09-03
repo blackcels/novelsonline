@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 30px;
+    background-color:#EEE;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::before{   /*clearfix hack !! Previent le margin collapse en haut */
+    content:'';
+    display: table;
+}
+
+.clearfix::after{   /*clearfix hack !! Previent le margin collapse en haut */
+    content:'';
+    display: table;
+    clear: both;
+}
+
+li{
+    float: left;
+    display: block;
+    width: 20%;
+}
+a{
+    width: 100%;
+    display: block;
+    background-color: grey;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
+
+article header, aside header{
+    background-color: #123456;
+    color:white;
+    padding: 10px;
+}
+
+article,aside{
+    float: left;
+    background-color: white;
+}
+
+article{
+    width:70%;
+}
+
+aside{
+    width:30%;
+}
+
+article main, aside main{
+    background-color: white;
+    padding: 20px;
+}
+
+body>main{
+    background-color: white;
+}

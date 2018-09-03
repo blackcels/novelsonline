@@ -13,6 +13,7 @@ class Chapter extends BaseSql
     protected $chapter_title;
     protected $chapter_body;
     protected $novels_id;
+    protected $novels_name;
     protected $create_date;
     protected $modified_date;
 
@@ -21,6 +22,12 @@ class Chapter extends BaseSql
      */
     public function getId()
     {
+        if ($this->id == 0) {
+            return (0);
+        }
+        elseif($this->id == 1) {
+            return (1);
+        }
         return $this->id;
     }
 
@@ -53,7 +60,7 @@ class Chapter extends BaseSql
      */
     public function getChapterTitle()
     {
-        return ucfirst(strtolower($this->chapter_title));
+        return ucwords(strtolower($this->chapter_title));
     }
 
     /**
@@ -94,6 +101,19 @@ class Chapter extends BaseSql
     public function setNovelsId($novels_id)
     {
         $this->novels_id = $novels_id;
+    }
+
+    public function getNovelsName()
+    {
+        return $this->novels_name;
+    }
+
+    /**
+     * @param mixed $novels_name
+     */
+    public function setNovelsName($novels_name)
+    {
+        $this->novels_name = $novels_name;
     }
 
     /**

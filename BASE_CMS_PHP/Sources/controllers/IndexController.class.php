@@ -12,7 +12,6 @@ class IndexController {
         }
         $recentChapters = Chapter::getRecentChapters();
 
-
         $modelsData->assign("Description", $myHome->getDescription());
         $modelsData->assign("recentChapters", $recentChapters);
         $modelsData->assign("Title", $myHome->getLogoTitle());
