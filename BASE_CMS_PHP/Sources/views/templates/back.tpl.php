@@ -1,20 +1,29 @@
-<?php include "templates/include/header.php" ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="<?php echo DS; ?>public/css/test.css" />
 
-    <ul id="headlines">
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="clearfix">
+            <li><a href="/back/"> <img id = "panda" src="<?php echo DS."private/img/panda.png"; ?>"></a></li>
 
-        <?php foreach ( $results['articles'] as $article ) { ?>
+        </ul>
+    </nav>
+</header>
+<br>
+<?php include "views/".$this->tpl."".$this->view;?>
+<br>
 
-            <li>
-                <h2>
-                    <span class="pubDate"><?php echo date('j F', $article->publicationDate)?></span><a href=".?action=viewArticle&amp;articleId=<?php echo $article->id?>"><?php echo htmlspecialchars( $article->title )?></a>
-                </h2>
-                <p class="summary"><?php echo htmlspecialchars( $article->summary )?></p>
-            </li>
+</body>
 
-        <?php } ?>
-
-    </ul>
-
-    <p><a href="./?action=archive">Article Archive</a></p>
-
-<?php include "templates/include/footer.php" ?>
+<footer>
+    <li><a href="#">Legal Notice</a></li>
+    <li><a href="#">Use conditional</a></li>
+    <li><a href="#">RSS</a></li>
+</footer>
+</html>

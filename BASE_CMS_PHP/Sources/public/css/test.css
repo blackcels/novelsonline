@@ -9,6 +9,7 @@ body{
 }
 
 ul{
+    background-color: burlywood;
     padding: 0;
     margin: 0;
 }
@@ -32,7 +33,7 @@ li{
 a{
     width: 100%;
     display: block;
-    background-color: grey;
+    background-color: burlywood;
     color:white;
     text-align: center;
     padding: 10px;
@@ -42,6 +43,16 @@ article header, aside header{
     background-color: #123456;
     color:white;
     padding: 10px;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: burlywood;
+    color: white;
+    text-align: center;
 }
 
 article,aside{
@@ -65,3 +76,10 @@ article main, aside main{
 body>main{
     background-color: white;
 }
+
+#panda{
+    padding: 5px;
+    height: 120px;
+    width: 150px;
+}
+

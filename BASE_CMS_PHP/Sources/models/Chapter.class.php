@@ -192,4 +192,17 @@ class Chapter extends BaseSql
         return $query->fetchAll(PDO::FETCH_CLASS, get_class());
     }
 
+    public function checkChapter($id, $chapNumber)
+    {
+        $pdo = self::getIntancePdo();
+        $request = "SELECT * FROM `chapter` WHERE novels_id = :id AND chapter_number = :chapNumber";
+        $query = $pdo->prepare($request);
+        $query->execute(["id"=>$id, "chapNumber"=>$chapNumber]);
+        if ($query->fetchAll(PDO::FETCH_CLASS, get_class()) == null){
+            return false;
+        }
+        return true;
+    }
+
+
 }

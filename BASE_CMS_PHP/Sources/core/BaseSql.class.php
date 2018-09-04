@@ -56,7 +56,7 @@ class BaseSql
             }
         }catch (Exception $e){
             HttpElement::redirect(HttpElement::$STATUS_301, B_HOME);
-            return;
+            return $e;
         }
     }
 

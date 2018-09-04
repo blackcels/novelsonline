@@ -2,10 +2,29 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Sources/index.php" line="27" />
+    <bookmark url="file://$PROJECT_DIR$/Sources/controllers/BackController.class.php" line="127" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db8eefc5-dac3-47fc-a1f1-d8b4bfac0a50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Sources/views/back/add_chapter.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/views/back/add_novels.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/views/back/edit_chapter.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/views/back/edit_novels.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sources/views/back/login.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/Readersdb/chapter.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/DB/Readersdb/chapter.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/Readersdb/novels.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/DB/Readersdb/novels.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/DB/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/DB/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/DB/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/DB/mysql/innodb_table_stats.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/controllers/BackController.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/controllers/BackController.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/core/BaseSql.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/core/BaseSql.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/models/Chapter.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/models/Chapter.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/private/json/admin.json" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/private/json/admin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/public/css/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/public/css/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/views/back/home.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/views/back/home.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/views/templates/back.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/views/templates/back.tpl.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/views/templates/front.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/views/templates/front.tpl.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,80 +40,101 @@
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PNG" value="2" />
-          <entry key="css" value="2" />
+          <entry key="css" value="4" />
           <entry key="htaccess" value="2" />
-          <entry key="html" value="1" />
+          <entry key="html" value="2" />
           <entry key="jpg" value="1" />
-          <entry key="json" value="10" />
-          <entry key="php" value="152" />
+          <entry key="json" value="11" />
+          <entry key="php" value="170" />
           <entry key="png" value="2" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
-          <entry key="HTML" value="1" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="2" />
           <entry key="Image" value="5" />
-          <entry key="JSON" value="10" />
-          <entry key="PHP" value="152" />
+          <entry key="JSON" value="11" />
+          <entry key="PHP" value="170" />
           <entry key="YAML" value="1" />
           <entry key="htaccess" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="18" />
-          <entry key="php" value="7241" />
+          <entry key="css" value="69" />
+          <entry key="dummy" value="22" />
+          <entry key="php" value="9243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="7240" />
-          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="CSS" value="69" />
+          <entry key="PHP" value="9242" />
+          <entry key="PLAIN_TEXT" value="22" />
           <entry key="SQL" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="7" />
+          <entry key="PHP Class.type" value="8" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/views/back/home.view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sources/views/back/add_novels.view.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sources/index.php">
+        <entry file="file://$PROJECT_DIR$/Sources/controllers/BackController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
+            <state relative-caret-position="316">
+              <caret line="212" column="40" selection-start-line="212" selection-start-column="40" selection-end-line="212" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/views/front/updates.view.php">
+        <entry file="file://$PROJECT_DIR$/Sources/views/back/edit_novels.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="34">
+              <caret line="2" column="85" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/views/templates/backOld.tpl.php">
+        <entry file="file://$PROJECT_DIR$/Sources/controllers/RssController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="12" column="29" selection-start-line="12" selection-end-line="13" />
+            <state relative-caret-position="136">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -102,58 +142,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="687">
+              <caret line="59" column="92" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="92" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/views/templates/front.tpl.php">
+        <entry file="file://$PROJECT_DIR$/Sources/views/back/select_chapter.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+            <state relative-caret-position="85">
+              <caret line="5" column="97" selection-start-line="5" selection-start-column="97" selection-end-line="5" selection-end-column="97" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/models/Chapter.class.php">
+        <entry file="file://$PROJECT_DIR$/Sources/views/back/add_chapter.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+            <state relative-caret-position="204">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/views/front/chapters.view.php">
+        <entry file="file://$PROJECT_DIR$/Sources/models/Novels.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="149" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="149" />
+            <state relative-caret-position="-1105">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/controllers/BackController.class.php">
+        <entry file="file://$PROJECT_DIR$/Sources/views/back/edit_chapter.view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="191" column="9" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/phpinfo.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sources/conf.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="153">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -164,6 +190,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -176,6 +203,14 @@
       <find>replace</find>
       <find>novel</find>
       <find>novels</find>
+      <find>&quot;get&quot;</find>
+      <find>selec</find>
+      <find>for</find>
+      <find>edit</find>
+      <find>get</find>
+      <find>add_no</find>
+      <find>chapterno</find>
+      <find>var</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,7 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Sources/core/BaseSql.class.php" />
         <option value="$PROJECT_DIR$/Sources/models/JsonElement/Home.class.php" />
         <option value="$PROJECT_DIR$/Sources/models/JsonElement/DatabaseJson.class.php" />
         <option value="$PROJECT_DIR$/Sources/models/JsonElement/HomeJson.class.php" />
@@ -199,9 +233,6 @@
         <option value="$PROJECT_DIR$/Sources/controllers/TestController.class.php" />
         <option value="$PROJECT_DIR$/Sources/private/json/database.json" />
         <option value="$PROJECT_DIR$/Sources/index.php" />
-        <option value="$PROJECT_DIR$/Sources/views/back/home.view.php" />
-        <option value="$PROJECT_DIR$/Sources/views/templates/back.tpl.php" />
-        <option value="$PROJECT_DIR$/Sources/public/css/test.css" />
         <option value="$PROJECT_DIR$/Sources/controllers/IndexController.class.php" />
         <option value="$PROJECT_DIR$/Sources/views/front/home.view.php" />
         <option value="$PROJECT_DIR$/Sources/private/json/home.json" />
@@ -211,10 +242,25 @@
         <option value="$PROJECT_DIR$/Sources/controllers/UpdateController.class.php" />
         <option value="$PROJECT_DIR$/Sources/views/front/updates.view.php" />
         <option value="$PROJECT_DIR$/Sources/controllers/ChaptersController.class.php" />
+        <option value="$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php" />
+        <option value="$PROJECT_DIR$/Sources/views/back/login.view.php.css" />
+        <option value="$PROJECT_DIR$/Sources/views/back/login.view.php.php" />
+        <option value="$PROJECT_DIR$/Sources/views/templates/front.tpl.php" />
+        <option value="$PROJECT_DIR$/Sources/views/back/login.view.php" />
+        <option value="$PROJECT_DIR$/Sources/views/templates/back.tpl.php" />
+        <option value="$PROJECT_DIR$/Sources/public/css/test.css" />
+        <option value="$PROJECT_DIR$/Sources/views/back/select_chapter.html" />
+        <option value="$PROJECT_DIR$/Sources/views/back/select_chapter.view.php" />
+        <option value="$PROJECT_DIR$/Sources/core/BaseSql.class.php" />
         <option value="$PROJECT_DIR$/Sources/models/Novels.class.php" />
         <option value="$PROJECT_DIR$/Sources/models/Chapter.class.php" />
-        <option value="$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php" />
-        <option value="$PROJECT_DIR$/Sources/views/templates/front.tpl.php" />
+        <option value="$PROJECT_DIR$/Sources/views/back/add_nove.view.php" />
+        <option value="$PROJECT_DIR$/Sources/views/back/add_novel.view.php" />
+        <option value="$PROJECT_DIR$/Sources/views/back/add_chapter.view.php" />
+        <option value="$PROJECT_DIR$/Sources/views/back/edit_chapter.view.php" />
+        <option value="$PROJECT_DIR$/Sources/views/back/home.view.php" />
+        <option value="$PROJECT_DIR$/Sources/views/back/add_novels.view.php" />
+        <option value="$PROJECT_DIR$/Sources/views/back/edit_novels.view.php" />
         <option value="$PROJECT_DIR$/Sources/controllers/BackController.class.php" />
       </list>
     </option>
@@ -225,9 +271,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="98" />
-    <option name="y" value="-10" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
     <option name="width" value="954" />
     <option name="height" value="1047" />
   </component>
@@ -237,6 +283,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -251,16 +298,81 @@
             </path>
             <path>
               <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="RSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="private" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="modals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BASE_CMS_PHP" type="462c0819:PsiDirectoryNode" />
+              <item name="Sources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BASE_CMS_PHP" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -291,20 +403,22 @@
       <workItem from="1535733208883" duration="12985000" />
       <workItem from="1535878387618" duration="23994000" />
       <workItem from="1535992604023" duration="17632000" />
+      <workItem from="1536078313994" duration="16564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58433000" />
+    <option name="totallyTimeSpent" value="74997000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -313,13 +427,34 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -339,53 +474,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sources/models/User.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="368" column="48" selection-start-line="364" selection-start-column="49" selection-end-line="370" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/core/View.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="47" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/models/JsonElement/AdminUserJson.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/core/JSON/ConfigJsonFile.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="71" lean-forward="true" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/controllers/AccountController.class.php" />
-    <entry file="file://$PROJECT_DIR$/Sources/core/Auth.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/core/Util.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/core/BaseSql.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="60" column="5" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -396,13 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/front/v_index.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/front/v_index.view.php" />
     <entry file="file://$PROJECT_DIR$/Sources/models/JsonElement/HomeJson.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -443,9 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/private/json/admin.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/controllers/TestController.class.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -467,20 +550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/back/home.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/public/css/test.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/private/json/home.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -488,21 +557,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/public/img/pictures/hands-technology-photo-phone.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/public/img/logo/logo_B-W.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/public/img/logo/fav_icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/public/img/logo_B-W.PNG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/public/img/fav_icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/public/img/pictures/hands-technology-photo-phone.jpg" />
+    <entry file="file://$PROJECT_DIR$/Sources/public/img/logo/logo_B-W.PNG" />
+    <entry file="file://$PROJECT_DIR$/Sources/public/img/logo/fav_icon.png" />
+    <entry file="file://$PROJECT_DIR$/Sources/public/img/logo_B-W.PNG" />
+    <entry file="file://$PROJECT_DIR$/Sources/public/img/fav_icon.png" />
     <entry file="file://$PROJECT_DIR$/Sources/views/front/home.view.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -521,13 +580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/templates/back.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -566,45 +618,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/models/Novels.class.php">
+    <entry file="file://$PROJECT_DIR$/Sources/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/controllers/RssController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/views/front/updates.view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="536">
+          <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/views/templates/backOld.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
+        <state relative-caret-position="204">
           <caret line="12" column="29" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/phpinfo.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/conf.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/views/templates/front.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="64" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/private/json/admin.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" lean-forward="true" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/public/css/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="52" column="32" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/templates/back.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -615,34 +677,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/front/updates.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="68" selection-start-line="16" selection-start-column="68" selection-end-line="16" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/back/login.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" selection-start-line="2" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/core/BaseSql.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/models/Chapter.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="92" column="33" lean-forward="true" selection-start-line="92" selection-start-column="33" selection-end-line="92" selection-end-column="33" />
+        <state relative-caret-position="724">
+          <caret line="206" selection-start-line="206" selection-end-line="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/core/RSS/RssFluxGenerate.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="59" column="92" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/controllers/RssController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/back/select_chapter.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="97" selection-start-line="5" selection-start-column="97" selection-end-line="5" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/back/add_chapter.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/back/edit_chapter.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/models/Novels.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1105">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/back/home.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/back/add_novels.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/views/back/edit_novels.view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="85" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/controllers/BackController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="191" column="9" selection-start-line="191" selection-start-column="9" selection-end-line="191" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/phpinfo.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/conf.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="84" column="11" selection-start-line="84" selection-start-column="11" selection-end-line="84" selection-end-column="11" />
+        <state relative-caret-position="316">
+          <caret line="212" column="40" selection-start-line="212" selection-start-column="40" selection-end-line="212" selection-end-column="40" />
         </state>
       </provider>
     </entry>
