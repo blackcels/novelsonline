@@ -11,6 +11,7 @@
 <header>
     <nav>
         <ul class="clearfix">
+            <li><img src="<?php echo DS."private/img/panda.png"; ?>"></li>
             <li><a href="/novels/">Novels</a></li>
             <li><a href="/update/">Update</a></li>
             <li><a href="/rss/">RSS</a></li>

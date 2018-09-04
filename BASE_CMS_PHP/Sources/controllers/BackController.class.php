@@ -37,6 +37,9 @@ class BackController {
     }
 
     public function homeAction($params){
+        if (Auth::verifyBack($_SESSION["Admin"]["token"] ) == false){
+            HttpElement::redirect(HttpElement::$STATUS_301, "/back/login");
+        }
         $myNovels = Novels::getAll();
         $modelsData = new View("home", "back");
 
@@ -50,6 +53,9 @@ class BackController {
     }
 
     public function add_chapterAction($params){
+        if (Auth::verifyBack($_SESSION["Admin"]["token"] ) == false){
+            HttpElement::redirect(HttpElement::$STATUS_301, "/back/login");
+        }
         $title = htmlspecialchars($params["URL"][0]);
         $myNovels = Novels::getNovelByTitle($title);
 
@@ -91,6 +97,9 @@ class BackController {
     }
 
     public function add_novelsAction($params){
+        if (Auth::verifyBack($_SESSION["Admin"]["token"] ) == false){
+            HttpElement::redirect(HttpElement::$STATUS_301, "/back/login");
+        }
         if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $title = isset($param["POST"]["Title"])? $params["POST"]["Title"]:"";
             $language = isset($param["POST"]["Language"])? $params["POST"]["Language"]:"";
@@ -125,6 +134,9 @@ class BackController {
     }
 
     public function edit_novelsAction($params){
+        if (Auth::verifyBack($_SESSION["Admin"]["token"] ) == false){
+            HttpElement::redirect(HttpElement::$STATUS_301, "/back/login");
+        }
         if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $title = isset($param["POST"]["Title"])? $params["POST"]["Title"]:"";
             $language = isset($param["POST"]["Language"])? $params["POST"]["Language"]:"";
@@ -157,6 +169,9 @@ class BackController {
     }
 
     public function select_chapterAction($params){
+        if (Auth::verifyBack($_SESSION["Admin"]["token"] ) == false){
+            HttpElement::redirect(HttpElement::$STATUS_301, "/back/login");
+        }
         $title = htmlspecialchars($params["URL"][0]);
         $myNovels = Novels::getNovelByTitle($title);
         $myChapters = Chapter::geChaptersByNovels($myNovels->getId());
@@ -172,6 +187,9 @@ class BackController {
     }
 
     public function edit_chapterAction($params){
+        if (Auth::verifyBack($_SESSION["Admin"]["token"] ) == false){
+            HttpElement::redirect(HttpElement::$STATUS_301, "/back/login");
+        }
         $title = htmlspecialchars($params["URL"][0]);
         $chapNumber = htmlspecialchars($params["URL"][1]);
         $myNovels = Novels::getNovelByTitle($title);
